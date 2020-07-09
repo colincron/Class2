@@ -1,0 +1,91 @@
+/* global */
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: lightslategray;
+}
+
+p{
+    font-size: 16px;
+    line-height: 2;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 20px;
+    color:#21CBFF;
+}
+
+footer{
+    background-color: darkslategrey;
+    color: lightcoral
+}
+
+/* header section */
+
+header{
+    /* i have no permission to use this image */
+    background-image:url(ocean.jpg);
+    width: 100%;
+    height: 170px;
+    color:darkblue;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.btn{
+    display:block;
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#icon-water{
+    color: darkblue;
+}
+
+/* main */
+
+.text{
+    text-align: center;
+}
+
+.text p{
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* icons */
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:darkblue;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
